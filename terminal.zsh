@@ -1,0 +1,2 @@
+#!/usr/local/bin/zsh
+xfce4-terminal --maximize;
