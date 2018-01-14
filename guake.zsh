@@ -9,4 +9,4 @@ sleep 30;
 #guake -n 'vifm';
 #guake -e 'vifm';
 
-guake -s 0;
+#guake -s 0;
