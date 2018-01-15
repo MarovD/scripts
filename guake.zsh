@@ -3,10 +3,12 @@
 guake &;
 sleep 30;
 
-#guake -n 'nvim';
-#guake -e 'nvim';
+guake -r 'cache';
+guake -e 'ssh root@cache';
 
-#guake -n 'vifm';
-#guake -e 'vifm';
+guake -n 'server';
+guake -e 'ssh user@s2';
 
-#guake -s 0;
+guake -n 'local';
+
+guake -s 0;
