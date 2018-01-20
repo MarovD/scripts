@@ -1,5 +1,5 @@
 #!/usr/local/bin/zsh
 
-export VIFM='/home/md/repos/vifmrc';
-export MYVIFMRC='/home/md/repos/vifmrc/vifmrc';
+export VIFM="$HOME/repos/vifmrc";
+export MYVIFMRC="$HOME/repos/vifmrc/vifmrc";
 vifm;
