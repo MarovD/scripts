@@ -3,8 +3,11 @@
 guake &;
 sleep 30;
 
-guake -r 'cache';
-guake -e 'ssh root@cache';
+# guake -r 'piter';
+# guake -e 'ssh root@piter';
+
+guake -r 'moscow';
+guake -e 'ssh root@moscow';
 
 guake -n 'server';
 guake -e 'ssh user@s2';
