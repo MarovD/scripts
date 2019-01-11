@@ -6,11 +6,11 @@ sleep 60;
 # guake -r 'piter';
 # guake -e 'ssh root@piter';
 
-guake -r 'moscow';
-guake -e 'ssh root@moscow';
+guake -r 'balancer1';
+guake -e 'ssh root@balancer1';
 
 guake -n 'server';
-guake -e 'ssh user@s2';
+guake -e 'ssh user@web-server';
 
 guake -n 'mail';
 guake -e 'ssh user@mail.websm.io';
